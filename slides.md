@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
+background: latitudde-background.jpg
 title: Eloquent vs. GTFS - O Quebra-cabeças da Chave Primária Composta
 class: text-center
 drawings:
@@ -156,11 +156,23 @@ class CalendarDateController extends Controller
 ```
 ````
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-size: 100%;
+  background: linear-gradient(80deg, #f61500 10%, #fefc41 40%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
 ---
 transition: fade-out
 ---
 
-# Repository Pattern to the rescue!
+# Repository Pattern ao resgate!
 
 ````md magic-move {lines: true}
 ```php {5-11}{lines:true}
@@ -250,6 +262,19 @@ class CalendarDateController extends Controller
 ```
 ````
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-size: 100%;
+  background: linear-gradient(80deg, #f61500 10%, #fefc41 40%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+
 ---
 transition: fade-out
 ---
@@ -301,10 +326,39 @@ class CalendarDateRepository
 ```
 ````
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-size: 100%;
+  background: linear-gradient(80deg, #f61500 10%, #fefc41 40%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+
 ---
 transition: fade-out
+layout: image-right
+
+image: images/gigachad.jpg
 ---
 
-# The End lol
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50vh; margin: 0;">
+  <h1 style="margin: 0;">The End</h1>
+  <h3 style="margin: 0; color:hsla(225, 0%, 100%, 0.25);">I will NOT be taking any questions</h3>
+</div>
 
-I will NOT be taking any question ❓
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-size: 100%;
+  background: linear-gradient(80deg, #f61500 10%, #fefc41 80%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
